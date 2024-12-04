@@ -240,7 +240,7 @@ function sort_htl_review(obj1,obj2){
 
 
 app.get('/',(req,res)=>{
-  return res.json({hotels:hotel});
+  return res.send("welcome");
 });
 
 app.get('/hotels',(req,res)=>{
